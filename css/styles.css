@@ -42,3 +42,10 @@ img {
     
         color: #757575;
 }
+
+.menu-link:hover,
+.menu-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #2196F3;
+}
