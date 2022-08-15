@@ -1,3 +1,16 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --logo-font: 'Raleway', sans-serif;
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #F5F4FA;
+    --dark-bg-color: #2F303A;
+    --primary-text-color: #212121;
+    --primary-contact-color: #757575;
+    --primary-accent-color: #2196F3;
+    --secondary-accent-color: #188CE8;
+    --primary-black: #000000;
+}
+
 .link {
     text-decoration: none;
 }
@@ -11,9 +24,9 @@
 }
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
-    background: #FFFFFF;
-    color: #212121;
+    font-family: var(--primary-font);
+    background: var(--primary-bg-color);
+    color: var(--primary-text-color);
 }
 
 .visually-hidden {
@@ -35,7 +48,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;   
-    color: #2196F3;
+    color: var(--primary-accent-color);
 }
 
 .studiologoblack {
@@ -44,7 +57,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #000;
+    color: var(--primary-black);
 }
 
 .menu-link {
@@ -52,7 +65,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .contacts-link {
@@ -60,18 +73,18 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--primary-contact-color);
 }
 
 .menu-link:hover,
 .menu-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
-    color: #2196F3;
+    color: var(--primary-accent-color);
 }
 
 .page-footer {
-    background-color: #2F303A;
+    background-color: var(--dark-bg-color);
 }
 
 .studiologowhite {
@@ -80,7 +93,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #FFF;
+    color: var(--primary-bg-color);
 }
 
 .address-footer {
@@ -91,7 +104,7 @@ body {
 }
 
 .address {
-    color: #FFFFFF;
+    color: var(--primary-bg-color);
 }
 
 .footer-contacts {
@@ -102,11 +115,11 @@ body {
 .address:focus,
 .footer-contacts:hover,
 .footer-contacts:focus {
-    color: #2196F3;
+    color: var(--primary-accent-color);
 }
 
 .feature {
-    background: #2F303A;
+    background: var(--dark-bg-color);
 }
 
 .feature-header {
@@ -116,11 +129,11 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--primary-bg-color);
 }
 
 .modal-open-btn {
-    background: #2196F3;
+    background: var(--primary-accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 0;
@@ -131,12 +144,12 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--primary-bg-color);
 }
 
 .modal-open-btn:hover,
 .modal-open-btn:focus {
-    background: #188CE8;
+    background: var(--secondary-accent-color);
 }
 
 .characteristic-name {
@@ -151,7 +164,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-contact-color);
 }
 
 .name-header {
@@ -163,11 +176,11 @@ body {
 }
 
 .our-team {
-    background: #F5F4FA;
+    background: var(--secondary-bg-color);
 }
 
 .workers-list-item {
-    background: #FFFFFF;
+    background: var(--primary-bg-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -185,15 +198,14 @@ body {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-contact-color);
 }
 
 .portfolio-buttons {
-    background: #F5F4FA;
+    background: var(--secondary-bg-color);
     border-radius: 4px;
     border: 0;
     font-family: 'Roboto';
-    /* Чомусь тут шрифт не наслідується*/
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -203,11 +215,11 @@ body {
 
 .portfolio-buttons:hover,
 .portfolio-buttons:focus {
-    background: #2196F3;
+    background: var(--primary-accent-color);
 }
 
 .portfolio-projects-item {
-    background: #FFFFFF;
+    background: var(--primary-bg-color);
     border: 1px solid #EEEEEE;
 }
 
@@ -222,5 +234,5 @@ body {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-contact-color);
 }
