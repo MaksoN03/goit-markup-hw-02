@@ -12,6 +12,7 @@ img {
 
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
+    background: #F5F5F5;
 }
 
 .visually-hidden {
@@ -187,6 +188,46 @@ body {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.portfolio-buttons {
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.portfolio-buttons:hover,
+.portfolio-buttons:focus {
+    background: #2196F3;
+}
+
+.portfolio-buttons-name {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.portfolio-projects-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.portfolio-projects-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-projects-description {
+    font-size: 16px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
 }
