@@ -122,14 +122,6 @@ body {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-}
-
-.modal-open-btn:hover,
-.modal-open-btn:focus {
-    background: #188CE8;
-}
-
-.order-service-button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -138,6 +130,11 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+}
+
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+    background: #188CE8;
 }
 
 .characteristic-name {
@@ -195,14 +192,6 @@ body {
 .portfolio-buttons {
     background: #F5F4FA;
     border-radius: 4px;
-}
-
-.portfolio-buttons:hover,
-.portfolio-buttons:focus {
-    background: #2196F3;
-}
-
-.portfolio-buttons-name {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -210,6 +199,11 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+}
+
+.portfolio-buttons:hover,
+.portfolio-buttons:focus {
+    background: #2196F3;
 }
 
 .portfolio-projects-item {
