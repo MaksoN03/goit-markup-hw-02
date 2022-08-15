@@ -123,6 +123,11 @@ body {
     border-radius: 4px;
 }
 
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+    background: #188CE8;
+}
+
 .order-service-button {
     font-weight: 700;
     font-size: 16px;
